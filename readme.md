@@ -68,5 +68,7 @@
 ###
 
 <br clear="both">
+
 ![snake gif](https://github.com/RKPROGRAMMING10K/RKPROGRAMMING10K/blob/output/github-contribution-grid-snake.svg)
+
 ###
