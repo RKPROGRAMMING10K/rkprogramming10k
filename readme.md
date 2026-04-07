@@ -70,5 +70,5 @@
 <br clear="both">
 
 <img src="https://raw.githubusercontent.com/RKPROGRAMMING10K/RKPROGRAMMING10K/output/snake.svg" alt="Snake animation" />
-
+![snake gif](https://github.com/RKPROGRAMMING10K/RKPROGRAMMING10K/blob/output/snake.svg)
 ###
