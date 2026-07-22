@@ -1,74 +1,55 @@
-<h2 align="left">Hi 👋! My name is Rohit VIshwakarma and I'm a Web Developer, from India.</h2>
+<div align="center">
 
-###
+<!-- Animated typing header -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B+I'm+Rohit+Vishwakarma;Flutter+%26+Web+Developer+from+India;Building+scalable%2C+real-world+apps;Welcome+to+my+GitHub+profile!" alt="Typing SVG" />
+</a>
 
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=RKPROGRAMMING10K&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&custom_title=Commits" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=RKPROGRAMMING10K&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=cobalt&hide_border=false" height="150" alt="languages graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=RKPROGRAMMING10K&theme=onedark&no-bg=true" height="150" alt="trophy graph"  />
+<!-- Social badges -->
+<p>
+  <a href="https://www.linkedin.com/in/rohitv-dev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:mr.rohit.vishwakarma22@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://instagram.com/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="https://facebook.com/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
+</p>
+
 </div>
 
-###
+### 🚀 About Me
 
-<img align="right" height="124" src="https://64.media.tumblr.com/2d0af9c90d1b1107313cc20bda01548a/tumblr_outwxnanpp1u79o2lo1_1280.gifv"  />
+I am a passionate **Flutter Developer** focused on building scalable, real-world mobile applications with clean architecture and maintainable code. I enjoy coding, learning new tools, and shipping things that work.
 
-###
+- 📍 Based in Nashik, India
+- 🔭 Currently building **Github-Profile-Tracker**
+- 🌱 Learning: advanced Flutter state management & backend integration
+- 💬 Ask me about: Flutter, JavaScript, PHP, C
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="30" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="c logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="30" alt="canva logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original.svg" height="30" alt="embeddedc logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="30" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30" alt="github logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
+<br>
+
+### 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,html,css,python,c,cpp,firebase,github,git,linux,mysql,vscode,dart,php" />
+</p>
+
+<br>
+
+### 📊 GitHub Metrics (auto-updates daily — real, live data)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RKPROGRAMMING10K/RKPROGRAMMING10K/main/metrics.svg" alt="Metrics" width="100%" />
+</p>
+
+<br>
+
+### 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=RKPROGRAMMING10K&theme=github_dark&no-frame=true&row=1&column=7&margin-w=8" alt="trophy" />
+</p>
+
+<br>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=RKPROGRAMMING10K&style=for-the-badge&color=58A6FF" alt="profile views" />
 </div>
-
-###
-
-<div align="left">
-  <a href="https://www.instagram/mr.rohit_vishwakarma22" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  </a>
-  <a href="rkvsk73@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/rohit-vishwakarma-401180262/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-  <a href="https://www.facebook.com/shivaay.vishwakarma.35/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="facebook logo"  />
-  </a>
-</div>
-
-###
-
-<br clear="both">
-
-![snake gif](https://github.com/RKPROGRAMMING10K/RKPROGRAMMING10K/blob/output/github-contribution-grid-snake.svg)
-
-###
