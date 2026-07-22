@@ -50,10 +50,10 @@ jobs:
           plugin_habits_from: 200
 
           # === PLUGIN: website performance (PageSpeed-style scores) ===
-          # Replace with your real site URL — remove this whole block if you don't have one
+          # Disabled for now — no real site URL yet. To re-enable, uncomment
+          # the two lines below and replace with your actual website URL.
           plugin_lighthouse: yes
           plugin_lighthouse_url: https://rs-portfolio-u61p.onrender.com/
-
           # === PLUGIN: achievements badges (adds animated progress rings) ===
           plugin_achievements: yes
           plugin_achievements_threshold: C
