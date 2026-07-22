@@ -37,7 +37,7 @@ I am a passionate **Flutter Developer** focused on building scalable, real-world
 ### 📊 GitHub Metrics (auto-updates daily — real, live data)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RKPROGRAMMING10K/RKPROGRAMMING10K/main/metrics.svg" alt="Metrics" width="100%" />
+  <img src="https://raw.githubusercontent.com/RKPROGRAMMING10K/RKPROGRAMMING10K/master/metrics.svg" alt="Metrics" width="100%" />
 </p>
 
 <br>
