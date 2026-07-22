@@ -1,0 +1,69 @@
+name: Metrics
+
+on:
+  # Regenerates the dashboard every day at 00:00 UTC — keeps stats real & current
+  schedule: [{cron: "0 0 * * *"}]
+  # Lets you trigger it manually from the Actions tab
+  workflow_dispatch:
+  # Regenerates whenever you push to your profile repo
+  push: {branches: ["main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # === AUTH ===
+          # Uses the METRICS_TOKEN secret you'll create in repo Settings → Secrets → Actions
+          # (a classic PAT with scopes: repo, read:user, read:org, read:packages)
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.svg
+
+          # === BASE (profile stats, repos, calendar) ===
+          base: header, activity, community, repositories, metadata
+
+          # === TEMPLATE ===
+          # "classic" is the animated card-style template used in dashboard-style profiles
+          template: classic
+          config_timezone: Asia/Kolkata
+
+          # === PLUGIN: isometric contribution calendar (animated 3D calendar) ===
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+          # === PLUGIN: most used languages ===
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_threshold: 0%
+          plugin_languages_limit: 8
+
+          # === PLUGIN: commit habits (activity per hour / per day bar charts) ===
+          plugin_habits: yes
+          plugin_habits_charts_type: bar
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+
+          # === PLUGIN: website performance (PageSpeed-style scores) ===
+          # Replace with your real site URL — remove this whole block if you don't have one
+          plugin_lighthouse: yes
+          plugin_lighthouse_url: https://your-website-url.com
+
+          # === PLUGIN: achievements badges (adds animated progress rings) ===
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+
+          # === PLUGIN: recent activity feed (adds motion/freshness) ===
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_visibility: public
+
+          # === PLUGIN: repositories you contribute to / starred topics ===
+          plugin_stars: yes
+          plugin_stars_limit: 6
