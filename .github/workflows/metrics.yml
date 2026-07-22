@@ -52,7 +52,7 @@ jobs:
           # === PLUGIN: website performance (PageSpeed-style scores) ===
           # Replace with your real site URL — remove this whole block if you don't have one
           plugin_lighthouse: yes
-          plugin_lighthouse_url: https://your-website-url.com
+          plugin_lighthouse_url: https://rs-portfolio-u61p.onrender.com/
 
           # === PLUGIN: achievements badges (adds animated progress rings) ===
           plugin_achievements: yes
