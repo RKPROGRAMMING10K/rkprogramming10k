@@ -6,7 +6,7 @@ on:
   # Lets you trigger it manually from the Actions tab
   workflow_dispatch:
   # Regenerates whenever you push to your profile repo
-  push: {branches: ["main"]}
+  push: {branches: ["master"]}
 
 jobs:
   github-metrics:
