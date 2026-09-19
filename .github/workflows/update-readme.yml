@@ -1,0 +1,79 @@
+name: 🔄 Auto-Update Profile README
+
+# ──────────────────────────────────────────────────────
+#  Triggers
+#   • Every day at 7:00 PM IST  (13:30 UTC  = UTC+5:30)
+#   • On every push to main (for testing)
+#   • Manual "Run workflow" button in Actions tab
+# ──────────────────────────────────────────────────────
+
+on:
+  schedule:
+    - cron: '30 13 * * *'    # 7:00 PM IST daily  (13:30 UTC)
+
+  push:
+    branches: [ main, master ]
+    paths-ignore:
+      - 'README.md'
+      - 'assets/**'
+
+  workflow_dispatch:           # Manual trigger from Actions UI
+
+# Allow writing back to the repo
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    name: 🎨 Generate README + SVG Assets
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      # ── 1. Checkout ───────────────────────────────────
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 2. Python env ─────────────────────────────────
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # ── 3. Install deps ───────────────────────────────
+      - name: 📦 Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # ── 4. Generate README & SVG assets ───────────────
+      - name: 🚀 Generate README and SVG assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "⏰ Starting generation at $(date -u '+%Y-%m-%d %H:%M UTC')"
+          python scripts/generate.py
+          echo "✅ Generation complete"
+
+      # ── 5. Commit & push if anything changed ──────────
+      - name: 📤 Commit and push changes
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name  "github-actions[bot]"
+          git add README.md assets/
+
+          # Only commit when there are actual changes
+          if git diff --staged --quiet; then
+            echo "⚡ No changes detected — skipping commit"
+          else
+            # Build a nice commit message with IST timestamp
+            IST=$(TZ="Asia/Kolkata" date "+%d %b %Y %I:%M %p IST")
+            git commit -m "🔄 Auto-update: ${IST}" \
+                       -m "Rebuilt README + SVG assets with live GitHub data"
+            git push
+            echo "🎉 Pushed successfully"
+          fi

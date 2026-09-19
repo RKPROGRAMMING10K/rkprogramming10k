@@ -1,0 +1,12 @@
+<svg width="900" height="56" viewBox="0 0 900 56" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="56" rx="10" fill="#1A0533" opacity="0.6"/>
+  <text x="450" y="22" text-anchor="middle" fill="#F5E6FF"
+        font-size="11" font-family="monospace" opacity="0.6">I am a …</text>
+  <text x="450" y="36" text-anchor="middle" fill="#C084FC" font-size="17" font-family="monospace" font-weight="600" opacity="0">Full Stack Developer<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.000;0.016;0.160;0.192;1" dur="12.5s" repeatCount="indefinite"/></text><text x="450" y="36" text-anchor="middle" fill="#C084FC" font-size="17" font-family="monospace" font-weight="600" opacity="0">Open Source Contributor<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.200;0.216;0.360;0.392;1" dur="12.5s" repeatCount="indefinite"/></text><text x="450" y="36" text-anchor="middle" fill="#C084FC" font-size="17" font-family="monospace" font-weight="600" opacity="0">Problem Solver<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.400;0.416;0.560;0.592;1" dur="12.5s" repeatCount="indefinite"/></text><text x="450" y="36" text-anchor="middle" fill="#C084FC" font-size="17" font-family="monospace" font-weight="600" opacity="0">Code Craftsman<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.600;0.616;0.760;0.792;1" dur="12.5s" repeatCount="indefinite"/></text><text x="450" y="36" text-anchor="middle" fill="#C084FC" font-size="17" font-family="monospace" font-weight="600" opacity="0">GitHub Explorer<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.800;0.816;0.960;0.992;1" dur="12.5s" repeatCount="indefinite"/></text>
+  <!-- Blinking cursor -->
+  <rect x="0" y="22" width="2" height="20" fill="#C084FC" rx="1">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
+    <animateMotion dur="12.5s" repeatCount="indefinite"
+      path="M 320,0 L 580,0"/>
+  </rect>
+</svg>
