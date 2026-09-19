@@ -97,14 +97,16 @@
   </text>
 
   <!-- ── Tech chips ── -->
-  <g opacity="0"><rect x="50" y="202" width="53" height="22" rx="11" fill="#6E768122" stroke="#6E7681" stroke-width="1"/><text x="77" y="217" text-anchor="middle" fill="#6E7681" font-size="10.5" font-family="monospace" font-weight="600">Code</text><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.90s" fill="freeze"/></g>
-  <g opacity="0"><rect x="111.2" y="202" width="69" height="22" rx="11" fill="#6E768122" stroke="#6E7681" stroke-width="1"/><text x="146" y="217" text-anchor="middle" fill="#6E7681" font-size="10.5" font-family="monospace" font-weight="600">GitHub</text><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.03s" fill="freeze"/></g>
-  <g opacity="0"><rect x="188.0" y="202" width="45" height="22" rx="11" fill="#6E768122" stroke="#6E7681" stroke-width="1"/><text x="211" y="217" text-anchor="middle" fill="#6E7681" font-size="10.5" font-family="monospace" font-weight="600">Dev</text><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.16s" fill="freeze"/></g>
+  <g opacity="0"><rect x="50" y="202" width="100" height="22" rx="11" fill="#F7DF1E22" stroke="#F7DF1E" stroke-width="1"/><text x="100" y="217" text-anchor="middle" fill="#F7DF1E" font-size="10.5" font-family="monospace" font-weight="600">JavaScript</text><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.90s" fill="freeze"/></g>
+  <g opacity="0"><rect x="158.0" y="202" width="53" height="22" rx="11" fill="#CC669922" stroke="#CC6699" stroke-width="1"/><text x="185" y="217" text-anchor="middle" fill="#CC6699" font-size="10.5" font-family="monospace" font-weight="600">SCSS</text><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.03s" fill="freeze"/></g>
+  <g opacity="0"><rect x="219.2" y="202" width="53" height="22" rx="11" fill="#E34F2622" stroke="#E34F26" stroke-width="1"/><text x="246" y="217" text-anchor="middle" fill="#E34F26" font-size="10.5" font-family="monospace" font-weight="600">HTML</text><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.16s" fill="freeze"/></g>
+  <g opacity="0"><rect x="280.4" y="202" width="45" height="22" rx="11" fill="#1572B622" stroke="#1572B6" stroke-width="1"/><text x="303" y="217" text-anchor="middle" fill="#1572B6" font-size="10.5" font-family="monospace" font-weight="600">CSS</text><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.29s" fill="freeze"/></g>
+  <g opacity="0"><rect x="333.79999999999995" y="202" width="69" height="22" rx="11" fill="#3776AB22" stroke="#3776AB" stroke-width="1"/><text x="368" y="217" text-anchor="middle" fill="#3776AB" font-size="10.5" font-family="monospace" font-weight="600">Python</text><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.42s" fill="freeze"/></g>
 
   <!-- ── Quick stats row ── -->
   <g opacity="0">
     <text x="50"  y="252" fill="#DDB3FF" font-size="12" font-family="monospace">📁 98 Repos</text>
-    <text x="185" y="252" fill="#DDB3FF" font-size="12" font-family="monospace">⭐ 0 Stars</text>
+    <text x="185" y="252" fill="#DDB3FF" font-size="12" font-family="monospace">⭐ 8 Stars</text>
     <text x="315" y="252" fill="#DDB3FF" font-size="12" font-family="monospace">👥 3 Followers</text>
     <text x="470" y="252" fill="#DDB3FF" font-size="12" font-family="monospace">🔀 0 Forks</text>
     <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.1s" fill="freeze"/>
@@ -118,6 +120,6 @@
   <!-- ── Updated timestamp ── -->
   <text x="880" y="288" text-anchor="end"
         fill="#DDB3FF" font-size="10" font-family="monospace" opacity="0.5">
-    🔄 19 Sep 2026  05:13 PM IST
+    🔄 19 Sep 2026  05:24 PM IST
   </text>
 </svg>

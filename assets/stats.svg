@@ -35,7 +35,7 @@
     <text x="342" y="52" text-anchor="middle" font-size="24">⭐</text>
     <text x="342" y="84" text-anchor="middle"
           fill="#F5E6FF" font-size="28" font-weight="800"
-          font-family="Arial Black, Arial, sans-serif">0</text>
+          font-family="Arial Black, Arial, sans-serif">8</text>
     <text x="342" y="104" text-anchor="middle"
           fill="#DDB3FF" font-size="11.5" font-family="Arial, sans-serif">Total Stars</text>
     <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.15s" fill="freeze"/>

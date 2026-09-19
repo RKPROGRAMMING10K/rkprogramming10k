@@ -1,0 +1,155 @@
+<svg width="900" height="322" viewBox="0 0 900 322" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="322" rx="12" fill="#0D1117"/>
+  <!-- Title -->
+  <text x="450" y="28" text-anchor="middle"
+        fill="#E6EDF3" font-size="16" font-weight="700"
+        font-family="Arial, sans-serif">📊 Top Languages</text>
+  
+  <!-- JavaScript -->
+  <text x="202" y="67" text-anchor="end"
+        fill="#8B949E" font-size="12" font-family="monospace" font-weight="500">JavaScript</text>
+  <!-- Track -->
+  <rect x="210" y="50" width="580" height="26" rx="5" fill="#21262D"/>
+  <!-- Fill bar (animates in) -->
+  <rect x="210" y="50" width="0" height="26" rx="5" fill="#F7DF1E">
+    <animate attributeName="width" values="0;220" dur="1s" begin="0.0s"
+             fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+  <!-- Glow overlay on fill -->
+  <rect x="210" y="50" width="0" height="13" rx="5"
+        fill="white" opacity="0.12">
+    <animate attributeName="width" values="0;220" dur="1s" begin="0.0s"
+             fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+  <!-- Percentage -->
+  <text x="800" y="67"
+        fill="#8B949E" font-size="11" font-family="monospace">38.0%</text>
+  <!-- Color dot before label -->
+  <circle cx="198" cy="63" r="4" fill="#F7DF1E"/>
+  <!-- SCSS -->
+  <text x="202" y="103" text-anchor="end"
+        fill="#8B949E" font-size="12" font-family="monospace" font-weight="500">SCSS</text>
+  <!-- Track -->
+  <rect x="210" y="86" width="580" height="26" rx="5" fill="#21262D"/>
+  <!-- Fill bar (animates in) -->
+  <rect x="210" y="86" width="0" height="26" rx="5" fill="#CC6699">
+    <animate attributeName="width" values="0;100" dur="1s" begin="0.1s"
+             fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+  <!-- Glow overlay on fill -->
+  <rect x="210" y="86" width="0" height="13" rx="5"
+        fill="white" opacity="0.12">
+    <animate attributeName="width" values="0;100" dur="1s" begin="0.1s"
+             fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+  <!-- Percentage -->
+  <text x="800" y="103"
+        fill="#8B949E" font-size="11" font-family="monospace">17.3%</text>
+  <!-- Color dot before label -->
+  <circle cx="198" cy="99" r="4" fill="#CC6699"/>
+  <!-- HTML -->
+  <text x="202" y="139" text-anchor="end"
+        fill="#8B949E" font-size="12" font-family="monospace" font-weight="500">HTML</text>
+  <!-- Track -->
+  <rect x="210" y="122" width="580" height="26" rx="5" fill="#21262D"/>
+  <!-- Fill bar (animates in) -->
+  <rect x="210" y="122" width="0" height="26" rx="5" fill="#E34F26">
+    <animate attributeName="width" values="0;97" dur="1s" begin="0.2s"
+             fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+  <!-- Glow overlay on fill -->
+  <rect x="210" y="122" width="0" height="13" rx="5"
+        fill="white" opacity="0.12">
+    <animate attributeName="width" values="0;97" dur="1s" begin="0.2s"
+             fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+  <!-- Percentage -->
+  <text x="800" y="139"
+        fill="#8B949E" font-size="11" font-family="monospace">16.8%</text>
+  <!-- Color dot before label -->
+  <circle cx="198" cy="135" r="4" fill="#E34F26"/>
+  <!-- CSS -->
+  <text x="202" y="175" text-anchor="end"
+        fill="#8B949E" font-size="12" font-family="monospace" font-weight="500">CSS</text>
+  <!-- Track -->
+  <rect x="210" y="158" width="580" height="26" rx="5" fill="#21262D"/>
+  <!-- Fill bar (animates in) -->
+  <rect x="210" y="158" width="0" height="26" rx="5" fill="#1572B6">
+    <animate attributeName="width" values="0;73" dur="1s" begin="0.30000000000000004s"
+             fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+  <!-- Glow overlay on fill -->
+  <rect x="210" y="158" width="0" height="13" rx="5"
+        fill="white" opacity="0.12">
+    <animate attributeName="width" values="0;73" dur="1s" begin="0.30000000000000004s"
+             fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+  <!-- Percentage -->
+  <text x="800" y="175"
+        fill="#8B949E" font-size="11" font-family="monospace">12.6%</text>
+  <!-- Color dot before label -->
+  <circle cx="198" cy="171" r="4" fill="#1572B6"/>
+  <!-- Python -->
+  <text x="202" y="211" text-anchor="end"
+        fill="#8B949E" font-size="12" font-family="monospace" font-weight="500">Python</text>
+  <!-- Track -->
+  <rect x="210" y="194" width="580" height="26" rx="5" fill="#21262D"/>
+  <!-- Fill bar (animates in) -->
+  <rect x="210" y="194" width="0" height="26" rx="5" fill="#3776AB">
+    <animate attributeName="width" values="0;57" dur="1s" begin="0.4s"
+             fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+  <!-- Glow overlay on fill -->
+  <rect x="210" y="194" width="0" height="13" rx="5"
+        fill="white" opacity="0.12">
+    <animate attributeName="width" values="0;57" dur="1s" begin="0.4s"
+             fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+  <!-- Percentage -->
+  <text x="800" y="211"
+        fill="#8B949E" font-size="11" font-family="monospace">10.0%</text>
+  <!-- Color dot before label -->
+  <circle cx="198" cy="207" r="4" fill="#3776AB"/>
+  <!-- Dart -->
+  <text x="202" y="247" text-anchor="end"
+        fill="#8B949E" font-size="12" font-family="monospace" font-weight="500">Dart</text>
+  <!-- Track -->
+  <rect x="210" y="230" width="580" height="26" rx="5" fill="#21262D"/>
+  <!-- Fill bar (animates in) -->
+  <rect x="210" y="230" width="0" height="26" rx="5" fill="#0175C2">
+    <animate attributeName="width" values="0;30" dur="1s" begin="0.5s"
+             fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+  <!-- Glow overlay on fill -->
+  <rect x="210" y="230" width="0" height="13" rx="5"
+        fill="white" opacity="0.12">
+    <animate attributeName="width" values="0;30" dur="1s" begin="0.5s"
+             fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+  <!-- Percentage -->
+  <text x="800" y="247"
+        fill="#8B949E" font-size="11" font-family="monospace">5.2%</text>
+  <!-- Color dot before label -->
+  <circle cx="198" cy="243" r="4" fill="#0175C2"/>
+  <!-- TypeScript -->
+  <text x="202" y="283" text-anchor="end"
+        fill="#8B949E" font-size="12" font-family="monospace" font-weight="500">TypeScript</text>
+  <!-- Track -->
+  <rect x="210" y="266" width="580" height="26" rx="5" fill="#21262D"/>
+  <!-- Fill bar (animates in) -->
+  <rect x="210" y="266" width="0" height="26" rx="5" fill="#3178C6">
+    <animate attributeName="width" values="0;0" dur="1s" begin="0.6000000000000001s"
+             fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+  <!-- Glow overlay on fill -->
+  <rect x="210" y="266" width="0" height="13" rx="5"
+        fill="white" opacity="0.12">
+    <animate attributeName="width" values="0;0" dur="1s" begin="0.6000000000000001s"
+             fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+  <!-- Percentage -->
+  <text x="800" y="283"
+        fill="#8B949E" font-size="11" font-family="monospace">0.1%</text>
+  <!-- Color dot before label -->
+  <circle cx="198" cy="279" r="4" fill="#3178C6"/>
+</svg>
